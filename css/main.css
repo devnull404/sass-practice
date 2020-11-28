@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  margin: 0 auto;
+}
+
+nav {
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+  border: 1px solid #db5097;
+}
+
+/*# sourceMappingURL=main.css.map */
