@@ -8,6 +8,12 @@ input {
   border-radius: 7px;
   padding: 10px;
   border: none;
+  width: 100px;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  width: 200px;
 }
 
 * {
@@ -35,6 +41,10 @@ nav {
   box-shadow: 0 0 5px 0 gray;
 }
 
+nav > a:hover {
+  color: #589d9a;
+}
+
 header {
   margin: 0 auto;
 }
@@ -49,6 +59,12 @@ input {
   border-radius: 7px;
   padding: 10px;
   border: none;
+  width: 100px;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  width: 200px;
 }
 
 /*# sourceMappingURL=main.css.map */
