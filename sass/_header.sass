@@ -5,12 +5,17 @@ nav
     flex-wrap: wrap
     background-color: $purple-mate
     height: 50px
-    justify-content: space-around
+    justify-content: space-between
     align-items: center
     box-shadow: 0 0 5px 0 gray
+
 
 nav > a:hover
     color: $green-mate
 
 header 
     margin: 0 auto
+
+@media (max-width: 650px)
+    .dissapear
+        display: none

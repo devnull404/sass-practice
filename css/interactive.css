@@ -15,5 +15,10 @@ input {
 input:focus {
   width: 200px;
 }
+@media (max-width: 700px) {
+  input:focus {
+    width: 100px;
+  }
+}
 
 /*# sourceMappingURL=interactive.css.map */

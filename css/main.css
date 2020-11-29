@@ -15,6 +15,11 @@ input {
 input:focus {
   width: 200px;
 }
+@media (max-width: 700px) {
+  input:focus {
+    width: 100px;
+  }
+}
 
 * {
   margin: 0;
@@ -36,7 +41,7 @@ nav {
   flex-wrap: wrap;
   background-color: #9d7b99;
   height: 50px;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   box-shadow: 0 0 5px 0 gray;
 }
@@ -49,6 +54,11 @@ header {
   margin: 0 auto;
 }
 
+@media (max-width: 650px) {
+  .dissapear {
+    display: none;
+  }
+}
 .btn {
   background-color: #589d9a;
   padding: 10px;
@@ -65,6 +75,11 @@ input {
 
 input:focus {
   width: 200px;
+}
+@media (max-width: 700px) {
+  input:focus {
+    width: 100px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
