@@ -1,13 +1,27 @@
-body {
-  display: flex;
-  margin: 0 auto;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: helvetica;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a > img {
+  height: 40px;
 }
 
 nav {
-  padding: 3px 10px;
-  font-size: 12px;
-  border-radius: 3px;
-  border: 1px solid #db5097;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #9d7b99;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 5px 0 gray;
 }
 
 /*# sourceMappingURL=main.css.map */

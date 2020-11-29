@@ -7,4 +7,3 @@ git init
 npm init
 sass --watch ./sass:./css
 ```
-
