@@ -1,0 +1,19 @@
+@import variables
+$inner-sections-max: 400px
+$inner-section-min: 280px
+main
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+section
+    display: flex
+    flex-wrap: wrap-reverse
+    max-width: 1000px
+    justify-content: center
+    align-items: center
+
+section > *
+    max-width: $inner-sections-max
+    min-width: $inner-section-min

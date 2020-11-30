@@ -60,6 +60,26 @@ header {
     display: none;
   }
 }
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+}
+
+section > * {
+  max-width: 400px;
+  min-width: 280px;
+}
+
 .btn {
   background-color: #589d9a;
   padding: 10px;
