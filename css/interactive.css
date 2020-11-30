@@ -1,5 +1,5 @@
 .btn {
-  background-color: #589d9a;
+  background-color: #2cd1c9;
   padding: 10px;
   border-radius: 7px;
 }
@@ -19,6 +19,15 @@ input:focus {
   input:focus {
     width: 100px;
   }
+}
+
+.rounded-elem {
+  border-radius: 10px;
+}
+
+.stick {
+  position: sticky;
+  top: 0;
 }
 
 /*# sourceMappingURL=interactive.css.map */

@@ -1,6 +1,9 @@
 @import variables
 $inner-sections-max: 400px
 $inner-section-min: 280px
+$margin-y: 10px
+
+
 main
     display: flex
     flex-direction: column
@@ -13,6 +16,7 @@ section
     max-width: 1000px
     justify-content: center
     align-items: center
+    margin: $margin-y 0 $margin-y 0
 
 section > *
     max-width: $inner-sections-max
